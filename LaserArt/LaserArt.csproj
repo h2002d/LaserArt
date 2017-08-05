@@ -212,13 +212,17 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\backgroundBlur.jpg" />
     <Content Include="images\box.jpg" />
+    <Content Include="images\Carousel\box.jpg" />
+    <Content Include="images\Carousel\Logo.png" />
     <Content Include="images\Logo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\carousel.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

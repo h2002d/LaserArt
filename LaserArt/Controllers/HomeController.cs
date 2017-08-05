@@ -11,7 +11,9 @@ namespace LaserArt.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var products = LaserArt.Models.Product.GetProductsByCategoryId(1);
+            
+            return View(products);
         }
 
         public ActionResult About()
